@@ -2,6 +2,20 @@
 
 Este é um projeto básico demonstrando como configurar um aplicativo Flask com MongoDB utilizando Docker para desenvolvimento.
 
+# Tema: Aplicativo de Lista de Compras (API)
+
+Nosso aplicativo de Lista de Compras permitirá que os usuários criem e gerenciem suas listas de compras. Os principais recursos incluirão:
+
+Criação de Lista de Compras: Os usuários podem criar novas listas de compras.
+
+Adição de Itens à Lista: Os usuários podem adicionar itens à lista de compras, incluindo nome do item, quantidade e opcionalmente a categoria.
+
+Visualização de Lista de Compras: Os usuários podem visualizar suas listas de compras, incluindo todos os itens adicionados.
+
+Atualização de Itens na Lista: Os usuários podem marcar itens como comprados, atualizar a quantidade de itens ou remover itens da lista.
+
+Exclusão de Lista de Compras: Os usuários podem excluir listas de compras que não são mais necessárias.
+
 ## Requisitos
 
 - Docker
