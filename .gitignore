@@ -1,0 +1,32 @@
+# Arquivos Python
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+
+# Arquivos de log
+*.log
+
+# Arquivos de build
+build/
+dist/
+
+# Arquivos de cache
+*.sqlite3
+
+# Arquivos de configuração
+*.ini
+
+# Dependências
+/.vscode
+/.idea
+/.vs
+*.iml
+
+# Docker
+docker-compose.yml
