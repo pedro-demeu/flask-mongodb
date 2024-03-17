@@ -12,7 +12,7 @@ mongo_uri = os.environ.get('MONGO_URI')
 database_name = os.environ.get('DATABASE_NAME')
 collection_name = os.environ.get('COLLECTION_NAME')
 
-client = MongoClient(mongo_uri)
+client = MongoClient(mongo_uri or 'localhost', 27017)
 db = client[database_name]
 shopping_collection = db[collection_name]
 
