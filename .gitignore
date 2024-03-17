@@ -27,6 +27,3 @@ dist/
 /.idea
 /.vs
 *.iml
-
-# Docker
-docker-compose.yml
